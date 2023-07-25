@@ -1,0 +1,24 @@
+{
+  "name": "fortune-eating-netlify",
+  "version": "1.0.0",
+  "description": "This repository contains all source code for the fortune-eating service on netlify",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "minizymint",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "langchain": "^0.0.107",
+    "netlify-cli": "^15.8.1",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1"
+  }
+}
